@@ -1,5 +1,6 @@
 import "./App.css";
 import Table from "./assets/componets/table";
+import Footer from "./layouts/footer";
 import Header from "./layouts/header";
 import HomePage from "./pages/home";
 
@@ -240,6 +241,7 @@ function App() {
     <>
       <Header />
       <HomePage users={users} />
+      <Footer />
     </>
   );
 }

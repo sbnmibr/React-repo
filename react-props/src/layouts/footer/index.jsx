@@ -1,10 +1,10 @@
 import React from 'react'
 import "./index.scss"
 
-function index() {
+function Footer(props) {
   return (
-    <div>index</div>
+    <Button  btnTxt={"footerBtn"}/>
   )
 }
 
-export default index
+export default Footer

@@ -1,7 +1,8 @@
 import React from 'react'
+import Button from '../../assets/componets/button'
 import "./index.scss"
 
-function Header() {
+function Header( props) {
   return (
     <header>
        <div className="container">
@@ -15,6 +16,7 @@ function Header() {
                 <li><a href="">Portfolio</a></li>
             </ul>
         </nav>
+        <Button  btnTxt={"headerBtn"}/>
         </div>
        </div>
     </header>
